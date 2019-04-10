@@ -1,7 +1,8 @@
 name: SimpleClans
 main: net.sacredlabyrinth.phaed.simpleclans.SimpleClans
 version: ${project.version}
-softdepend: [VanishNoPacket, Permissions, PermissionsBukkit, Vault, PermissionsEx, mChat, mChatSuite]
+softdepend: [VanishNoPacket, Vault]
+api-version: 1.13
 permissions:
   simpleclans.admin.permissions:
     description: Can grant clans permissions
