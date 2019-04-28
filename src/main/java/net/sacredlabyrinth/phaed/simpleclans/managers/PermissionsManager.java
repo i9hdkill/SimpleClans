@@ -345,7 +345,7 @@ public final class PermissionsManager {
             try {
                 String world = p.getWorld().getName();
                 String name = p.getName();
-                String prefix = chat.getPlayerPrefix(name, world);
+                String prefix = chat.getPlayerPrefix(world, name);
                 if (prefix == null || prefix.isEmpty()) {
                     String group = permission.getPrimaryGroup(world, name);
                     prefix = chat.getGroupPrefix(world, group);
